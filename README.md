@@ -22,16 +22,21 @@ Ahora bien, para determinar si un sistema es controlable o no, se realizan de do
 ## 💡Ejemplo 1:
  ![Figura 1](PRIMERIMG.png)
 
-Figura 3.Espacio de estados.
+Figura 1.Espacio de estados.
 
 Ahora se realiza el proceso de multiplicación de matrices y al tener la matriz U se analiza el determinante:
-IMG2
+ ![Figura 2](SEGUNDAIMG.png)
+
+Figura 2.Matriz de controlabilidad.
+
 Al tener U diferente de 0 se obtiene que el sistema es controlable.
 
 ## Observabilidad
 >🔑 Definición: Se puede saber con solo la salida, las variables de estado, porque hay veces en donde estas no son medibles, es decir, no son visibles y esta variable es muy valiosa. Este tipo de prueba se realiza evaluando el rango o la determinante de la matriz de observabilidad.
 
-imgadc
+ ![Figura 3](imgadc.png)
+
+Figura 3.Vector observabilidad.
 
 * Matriz de observabilidad, vector filas.
 * La matriz de observabilidad debe tener el mismo tamaño de la matriz principal A que sale de:
@@ -48,19 +53,31 @@ Ahora bien, para determinar si un sistema es observable o no, se realizan de dos
 
 ## 💡Ejemplo 2:
 En base al ejercicio 1, se interpreta la siguiente matriz de observabilidad: 
-Tercer img
+ ![Figura 4](TERCERIMG.png)
+
+Figura 4.Observabilidad.
+
 * El sistema es OBSERVSABLE
 * Este tipo de variable es más desde el punto matemático, pues la realidad es que el 99.9% de los sistemas son controlables y observables, es por eso que tenemos áreas como la física, la matemática y las ingenierías.
 
 ## 💡Ejemplo 3:
-Cuartaimg
+ ![Figura 5](CUARTAIMG.png)
+
+Figura 5.Controlabilidad.
+
 * El sistema es controlable
-Quinta IMG 
+ ![Figura 6](QUINTAIMG.png)
+
+Figura 6.Observabilidad.
+
 * El sistema NO es observable
 * Se concluye que el sistema es canónico controlable
 
 ## 💡Ejemplo 4:
-Sexta img
+ ![Figura 7](SEXTAIMG.png)
+
+Figura 7.
+
 * Con el siguiente sistema se analiza por medio de MATLAB muy similar al anterior ejercicio y se obtiene que el sistema es observable, pero no controlable, ¿Por qué sucede esto si son mismos valores organizados de manera distinta? R/ Este es el efecto que se obtiene al tener la forma canónica observable de un sistema.
 
 ## Control por retroalimentación de estados
@@ -68,7 +85,9 @@ Sexta img
 
 Lo anterior se define mediante $$u(k)=−Kx(k)$$, donde como se mencionó anteriormente, K es una matriz de ganancias que es calculada para lograr la dinámica deseada del sistema.
 
-Séptima img
+ ![Figura 8](SEPTIMAIMG.png)
+
+Figura 8.
 
 Donde se deben tener en cuenta dos condiciones importantes: 
 1. Todas las variables de estado deben ser MEDIBLES.
@@ -80,7 +99,9 @@ Es decir, las dos variables explicadas al comienzo de este tema deben cumplirse 
 2.	Calcular el polinomio característico, teniendo en cuenta que: $$|zI -A|= z^{n}+a_{1}z^{n-1}+...+a_{n-1}z+a_{n}$$
 3.	Analizar la transformación T basada en la matriz de controlabilidad, donde T= UW, pero si y solo si el sistema es canónico controlable T adopta el valor de I que es la matriz identidad o bien conocida en valor numérico como 1. En caso de que no sea controlable la única matriz que falta analizar es W:
    
-Novenimg
+ ![Figura 9](NOVENAIMG.png)
+
+Figura 9.
 
 5.	Diseñar el polinomio que ubique los polos en lazo cerrado: $$z^{n}+ \alpha z^{n-1}+...+ \alpha_{n-1}z+ \alpha_{n}$$
 6.	Finalmente calcular la matriz de ganancias en la retroalimentación de estados con la siguiente forma: 
@@ -91,18 +112,24 @@ $$K = [\alpha_{n}-a_{n}, \alpha_{n-1}-a_{n-1},...,\alpha_{1}-a_{1}]T^{-1}$$
 ## 💡Ejemplo 5:
 Para el sistema con matrices :
 
-Octava img
+ ![Figura 10](OCTAVAIMG.png)
+
+Figura 10.
 
 ° Polos deseados: $$𝑧 = −0.2±𝑗0.4, z=−0.02$$
 1.	Según la variable de controlabilidad dando un determinante de -1 , se puede saber que el sistema es controlable, asi que se pueden seguir con los siguientes pasos.
 2.	Ahora bien, calculando el polinomio característico en lazo abierto: $$z^{3}+6z^{2}+5z+1$$
 3.	Determinar la matriz T teniendo en cuenta :
    
-DECIMAIMG
+ ![Figura 11](DECIMAIMG.png)
+
+Figura 11.
 
 Sin embargo, al ser un sistema canónico controlable se adopta la matriz identidad: 
 
-Onceimg
+ ![Figura 12](ONCEIMG.png)
+
+Figura 12.
 
 5.	Calcular polinomio característico en lazo cerrado:
    
@@ -118,27 +145,35 @@ $$K = [-0.996, -4.799, -5.598]$$
 # 📚Ejercicios 
 1. Considerando el sistema lineal en espacio de estados definido por:
    
-Doceimg 
+ ![Figura 13](DOCEIMG.png)
+
+Figura 13.
 
 1.	Calcular matriz de controlabilidad
 2.	Determinar si el sistema es controlable 
 
 * Solución:
   
-Treceimg
+ ![Figura 14](TRECEIMG.png)
+
+Figura 14.
 
 El sistema es controlable
 
 2. Considerando las matrices
    
-Catorceimg
+ ![Figura 15](CATORCEIMG.png)
+
+Figura 15.
 
 1.	Calcular matriz de observabilidad.
 2.	Determinar si el sistema es observable verificando si el rango de V es igual al número de estados del sistema.
    
 * Solucion:
   
-Quinceimg
+ ![Figura 16](QUINCEIMG.png)
+
+Figura 16.
 
 ° Si el rango es igual al numero de estados, n= 2, el sistema es efectivamente observable 
  Rango (V) = 2
