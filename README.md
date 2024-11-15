@@ -79,7 +79,7 @@ Es decir, las dos variables explicadas al comienzo de este tema deben cumplirse 
    
 Novenimg
 
-5.	Diseñar el polinomio que ubique los polos en lazo cerrado: $$z^{n}+ \alphaz^{n-1}+...+ \alpha_{n-1}z+ \alpha_{n}$$
+5.	Diseñar el polinomio que ubique los polos en lazo cerrado: $$z^{n}+ \alpha_z^{n-1}+...+ \alpha_{n-1}z+ \alpha_{n}$$
 6.	Finalmente calcular la matriz de ganancias en la retroalimentación de estados con la siguiente forma: 
 $$K = [\alpha_{n}-a_{n}, \alpha_{n-1}-a_{n-1},...,\alpha_{1}-a_{1}]T^{-1}$$ 
 
