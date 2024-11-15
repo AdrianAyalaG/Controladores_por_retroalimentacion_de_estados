@@ -1,0 +1,3 @@
+14/11/2024
+# Controladores por retroalimentación de estados
+En sistemas de control digital y de movimiento se analizan dos variables importantes en el análisis de las mismas: la observabilidad y la controlabilidad. Estas dos variables determinan si un sistema puede ser completamente controlado o si sus estados pueden ser determinados a partir de las salidas observables. Las variables de estado son las que permiten conocer estas dos características, que son importantes para garantizar el diseño efectivo de controladores, la estabilidad del sistema y su capacidad de seguir o responder adecuadamente a señales de referencia. 
