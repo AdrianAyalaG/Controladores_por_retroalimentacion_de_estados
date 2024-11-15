@@ -8,7 +8,9 @@ $$U = [B AB A^{2}B A^{3}B ...A^{n-1}B ]$$
 
 * Matriz de controlabilidad, vector columnas.
 * La matriz de controlabilidad debe tener el mismo tamaño de la matriz principal A que sale de:
+  
   $$x(k+1)=Ax(k)+Bu(k)$$
+  
   $$𝒚(k) = 𝑪𝑿 (𝑘) + 𝑫𝒖(𝑘)$$
 
 Ahora bien, para determinar si un sistema es controlable o no, se realizan de dos formas: 
@@ -16,3 +18,14 @@ Ahora bien, para determinar si un sistema es controlable o no, se realizan de do
 | ------ | ------ | 
 | If $$U[]\not\equiv 0$$ (Sistema controlable)  | If rango de la matriz = Cant de variables de estado (Sistema controlable) | 
 | If U[] = 0 (Sistema NO controlable) | If rango de la matriz $$\not\equiv$$ Cant de variables de estado Sistema NO controlable)   | 
+
+## 💡Ejemplo 1:
+IMG1
+Ahora se realiza el proceso de multiplicación de matrices y al tener la matriz U se analiza el determinante:
+IMG2
+Al tener U diferente de 0 se obtiene que el sistema es controlable.
+
+## Observabilidad
+>🔑 Definición: Se puede saber con solo la salida, las variables de estado, porque hay veces en donde estas no son medibles, es decir, no son visibles y esta variable es muy valiosa. Este tipo de prueba se realiza evaluando el rango o la determinante de la matriz de observabilidad.
+
+$$V=[■(C@CA@CA^(n-1) )]$$
