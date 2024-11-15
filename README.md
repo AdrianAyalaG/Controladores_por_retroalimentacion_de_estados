@@ -77,7 +77,7 @@ Figura 6.Observabilidad.
 ## 💡Ejemplo 4:
  ![Figura 7](SEXTAIMG.png)
 
-Figura 7.
+Figura 7.Espacio de estados.
 
 * Con el siguiente sistema se analiza por medio de MATLAB muy similar al anterior ejercicio y se obtiene que el sistema es observable, pero no controlable, ¿Por qué sucede esto si son mismos valores organizados de manera distinta? R/ Este es el efecto que se obtiene al tener la forma canónica observable de un sistema.
 
@@ -88,7 +88,7 @@ Lo anterior se define mediante $$u(k)=−Kx(k)$$, donde como se mencionó anteri
 
  ![Figura 8](SEPTIMAIMG.png)
 
-Figura 8.
+Figura 8. Retroalimentación de estados.
 
 Donde se deben tener en cuenta dos condiciones importantes: 
 1. Todas las variables de estado deben ser MEDIBLES.
@@ -102,7 +102,7 @@ Es decir, las dos variables explicadas al comienzo de este tema deben cumplirse 
    
  ![Figura 9](NOVENAIMG.png)
 
-Figura 9.
+Figura 9. Matriz W.
 
 5.	Diseñar el polinomio que ubique los polos en lazo cerrado: $$z^{n}+ \alpha z^{n-1}+...+ \alpha_{n-1}z+ \alpha_{n}$$
 6.	Finalmente calcular la matriz de ganancias en la retroalimentación de estados con la siguiente forma: 
@@ -115,7 +115,7 @@ Para el sistema con matrices :
 
  ![Figura 10](OCTAVAIMG.png)
 
-Figura 10.
+Figura 10. Matriz A y B.
 
 ° Polos deseados: $$𝑧 = −0.2±𝑗0.4, z=−0.02$$
 1.	Según la variable de controlabilidad dando un determinante de -1 , se puede saber que el sistema es controlable, asi que se pueden seguir con los siguientes pasos.
@@ -124,13 +124,13 @@ Figura 10.
    
  ![Figura 11](DECIMAIMG.png)
 
-Figura 11.
+Figura 11. Matriz U y W.
 
 Sin embargo, al ser un sistema canónico controlable se adopta la matriz identidad: 
 
  ![Figura 12](ONCEIMG.png)
 
-Figura 12.
+Figura 12. Matriz identidad.
 
 5.	Calcular polinomio característico en lazo cerrado:
    
@@ -148,7 +148,7 @@ $$K = [-0.996, -4.799, -5.598]$$
    
  ![Figura 13](DOCEIMG.png)
 
-Figura 13.
+Figura 13. Matriz A y B.
 
 1.	Calcular matriz de controlabilidad
 2.	Determinar si el sistema es controlable 
@@ -157,7 +157,7 @@ Figura 13.
   
  ![Figura 14](TRECEIMG.png)
 
-Figura 14.
+Figura 14. Controlabilidad.
 
 El sistema es controlable
 
@@ -165,7 +165,7 @@ El sistema es controlable
    
  ![Figura 15](CATORCEIMG.png)
 
-Figura 15.
+Figura 15. Matriz A y C.
 
 1.	Calcular matriz de observabilidad.
 2.	Determinar si el sistema es observable verificando si el rango de V es igual al número de estados del sistema.
@@ -174,7 +174,7 @@ Figura 15.
   
  ![Figura 16](QUINCEIMG.png)
 
-Figura 16.
+Figura 16. Observabilidad.
 
 ° Si el rango es igual al numero de estados, n= 2, el sistema es efectivamente observable 
  Rango (V) = 2
