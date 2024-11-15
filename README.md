@@ -86,7 +86,7 @@ Figura 7.
 
 Lo anterior se define mediante $$u(k)=−Kx(k)$$, donde como se mencionó anteriormente, K es una matriz de ganancias que es calculada para lograr la dinámica deseada del sistema.
 
- ![Figura 8](SEPTIMA_IMG.png)
+ ![Figura 8](SEPTIMAIMG.png)
 
 Figura 8.
 
