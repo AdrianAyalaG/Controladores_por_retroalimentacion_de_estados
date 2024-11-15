@@ -20,7 +20,7 @@ Ahora bien, para determinar si un sistema es controlable o no, se realizan de do
 | If U[] = 0 (Sistema NO controlable) | If rango de la matriz $$\not\equiv$$ Cant de variables de estado Sistema NO controlable)   | 
 
 ## 💡Ejemplo 1:
- ![Figura 1](PRIMERIMAG.png)
+ ![Figura 1](PRIMERIMG.png)
 
 Figura 3.Espacio de estados.
 
