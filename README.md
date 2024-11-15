@@ -183,6 +183,7 @@ Figura 16. Observabilidad.
 La controlabilidad y la observabilidad son fundamentales para garantizar el control efectivo de un sistema y su monitoreo y/o análisis. La controlabilidad asegura que, mediante las entradas, es posible mover el estado del sistema desde cualquier condición inicial a cualquier estado deseado, lo cual permite diseñar controladores que modifiquen la dinámica del sistema. Por esa misma razón mediante estos sistemas se pueden calcular ganancias de retroalimentación de estados (K) que ajusten los polos del sistema en lazo cerrado para obtener características deseadas como estabilidad, rapidez o puede ser que amortiguamiento. Por otro lado, la observabilidad garantiza que se puedan deducir todos los estados del sistema a partir de sus salidas medidas. Esto es crucial cuando no se puede medir directamente el estado completo del sistema. En conjunto, la controlabilidad y la observabilidad permiten ajustar tanto la dinámica del sistema en lazo cerrado entre otras, asegurando que el sistema sea robusto, estable y capaz de cumplir con los objetivos deseados en su operación.
 
 ## Referencias
-[1] 
+[1] AulasVirtualesECCI: Entrar al sitio. (n.d.). Edu.co. Retrieved November 15, 2024, from https://aulas.ecci.edu.co/course/view.php?id=9304
+
 
 
