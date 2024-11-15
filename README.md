@@ -53,6 +53,7 @@ Ahora bien, para determinar si un sistema es observable o no, se realizan de dos
 
 ## 💡Ejemplo 2:
 En base al ejercicio 1, se interpreta la siguiente matriz de observabilidad: 
+
  ![Figura 4](TERCERIMG.png)
 
 Figura 4.Observabilidad.
